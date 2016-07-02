@@ -1,1 +1,4 @@
+com\remote\RemoteDemo.class
 com\controller\TestController.class
+com\log\Log.class
+com\log\SystemLogAspect.class
