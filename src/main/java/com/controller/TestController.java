@@ -19,7 +19,6 @@ public class TestController {
         jsonObject.put("username", "sun");
         jsonObject.put("password", "123");
         String result = RemoteDemo.remoteJsonRequest("http://localhost:8080/test2?username=sun&password=123", 5000, jsonObject);
-        System.out.println(result);
         return "success";
     }
 
