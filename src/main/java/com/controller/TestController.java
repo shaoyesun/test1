@@ -27,15 +27,21 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class TestController {
 
-    @Log(desc = "log测试")
+    //@Log(desc = "log测试")
     @RequestMapping(value = "test1")
     public String test1(){
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("username", "sun");
         jsonObject.put("password", "123");
-        String result = RemoteDemo.remoteJsonRequest("http://localhost:8080/test2?username=sun&password=123", 5000, jsonObject);
-        System.out.println(result);
+        //String result = RemoteDemo.remoteJsonRequest("http://localhost:8080/test2?username=sun&password=123", 5000, jsonObject);
+        //System.out.println(result);
         return "success";
+    }
+
+    @RequestMapping(value = "test2")
+    public String test2(){
+        System.out.println("test2");
+        return "index";
     }
 
     public static void main(String[] args) {
