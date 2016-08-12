@@ -34,11 +34,11 @@
     </bean>
 
     <!--  日志自定义注解拦截器 -->
-    <mvc:interceptors>
+    <!--<mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <bean class="com.log.SystemLogAspect"></bean>
         </mvc:interceptor>
-    </mvc:interceptors>
+    </mvc:interceptors>-->
 
 </beans>

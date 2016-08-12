@@ -43,8 +43,8 @@
     <filter-name>TestFilter</filter-name>
     <filter-class>com.controller.TestFilter</filter-class>
       <init-param>
-          <param-name>visiter</param-name>
-          <param-value>/tests</param-value>
+          <param-name>excludedPages</param-name>
+          <param-value>/test1</param-value>
       </init-param>
   </filter>
   <filter-mapping>

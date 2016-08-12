@@ -30,18 +30,19 @@ public class TestController {
     //@Log(desc = "log测试")
     @RequestMapping(value = "test1")
     public String test1(){
-        JSONObject jsonObject = new JSONObject();
+        /*JSONObject jsonObject = new JSONObject();
         jsonObject.put("username", "sun");
-        jsonObject.put("password", "123");
+        jsonObject.put("password", "123");*/
         //String result = RemoteDemo.remoteJsonRequest("http://localhost:8080/test2?username=sun&password=123", 5000, jsonObject);
         //System.out.println(result);
+        System.out.println("test1");
         return "success";
     }
 
     @RequestMapping(value = "test2")
     public String test2(){
         System.out.println("test2");
-        return "index";
+        return "success2";
     }
 
     public static void main(String[] args) {
