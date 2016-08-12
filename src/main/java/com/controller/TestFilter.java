@@ -36,8 +36,6 @@ public class TestFilter implements Filter {
             }
         }
 
-        System.out.println("china");
-
         if (isExcludedPage) {//在过滤url之外
             filterChain.doFilter(servletRequest, servletResponse);
             //httpResponse.sendRedirect("/test2");
