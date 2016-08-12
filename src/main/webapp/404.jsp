@@ -4,10 +4,6 @@
     <meta http-equiv="refresh" content="0;url=/user/login/home">
 </head>
 <body>
-<h2>Hello World!</h2>
-<form action="test1" method="post" id="form1">
-    <input type="submit" name="submit" value="button">
-</form>
-<ex:Hello></ex:Hello>
+<h1 align="center" style="font-size: 100px;">404</h1>
 </body>
 </html>
