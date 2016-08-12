@@ -31,13 +31,13 @@ public class TestController {
         //String result = RemoteDemo.remoteJsonRequest("http://localhost:8080/test2?username=sun&password=123", 5000, jsonObject);
         //System.out.println(result);
         System.out.println("test1");
-        return "success";
+        return "/error/success";
     }
 
     @RequestMapping(value = "test2")
     public String test2(){
         System.out.println("test2");
-        return "success2";
+        return "/error/success2";
     }
 
     public static void main(String[] args) {
